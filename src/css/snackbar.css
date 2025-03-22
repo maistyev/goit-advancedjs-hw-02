@@ -1,0 +1,84 @@
+/* Form styling */
+.form {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Label styling */
+.form label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* Input styling */
+.form input[type='number'] {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form input[type='number']:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+/* Fieldset styling */
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+/* Radio button container */
+fieldset label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+/* Radio button styling */
+input[type='radio'] {
+  margin-right: 8px;
+  cursor: pointer;
+  accent-color: #4f46e5;
+}
+
+/* Button styling */
+button[type='submit'] {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%;
+}
+
+button[type='submit']:hover {
+  background-color: #4338ca;
+}
+
+button[type='submit']:active {
+  transform: translateY(2px);
+}
